@@ -19,7 +19,7 @@ app.use(
 );
 app.use('/api', router);
 app.get('/', (req: Request, res: Response) => {
-  res.send('doctor-tracker is flying!');
+  res.send('App is flying!');
 });
 app.use(globalErrorHandler);
 app.use(notFound);
